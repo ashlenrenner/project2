@@ -69,7 +69,15 @@ document.getElementById('bag').style.visibility = "visible"
 
 jQuery(window).load(function(){
   console.info("main.js window load function");
-  $('.slider').fractionSlider();
+  $('.slider').fractionSlider({
+    'fullWidth':            true,
+    'controls':             true,
+    'pager':                true,
+    'responsive':           true,
+    'dimensions':           "1200,800",
+    'increase':             false,
+    'pauseOnHover':         true
+    });
 });
 
 // $(window).load(function(){
