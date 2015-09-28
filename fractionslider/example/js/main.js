@@ -18,15 +18,16 @@ function addScroller(){
 //Tooltip
 function sayName(){
 
+$(document).ready(function(sayname) {
   $('.tooltip').tooltipster({
      animation: 'fade',
      delay: 200,
      theme: 'tooltipster-default',
      trigger: 'hover'
   });
-  // $(document).ready(function(sayname) {
-  //     $('.tooltip').tooltipster();
-  // });
+
+      // $('.tooltip').tooltipster();
+  });
 }
 
 
@@ -74,23 +75,8 @@ jQuery(window).load(function(){
     'controls':             true,
     'pager':                true,
     'responsive':           true,
-    'dimensions':           "1200,800",
+    'dimensions':           "1000,800",
     'increase':             false,
     'pauseOnHover':         true
     });
 });
-
-// $(window).load(function(){
-//   $('.slider').fractionSlider();
-//     'fullWidth': 			true,
-//     'controls': 			true,
-//     'pager': 				true,
-//     'responsive': 			true,
-//     'dimensions': 			"1000,800",
-//       'increase': 			false,
-//     'pauseOnHover': 		true,
-//     'slideEndAnimation': 	true,
-//     'slideTransition': 'none',
-// });
-//
-// });
