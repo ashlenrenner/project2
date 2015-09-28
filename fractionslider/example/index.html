@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html>
+	<head>
+		<meta name="author" content="Ashlen Renner">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+		<link rel="stylesheet" href="css/reset.css" type="text/css"   charset="utf-8" />
+		<link rel="stylesheet" href="css/slider-style.css" type="text/css" charset="utf-8" />
+		<link rel="stylesheet" href="css/fractionslider.css">
+		<!-- <link rel="stylesheet" type="text/css" href="css/tooltipster.css" /> -->
+		<link  rel="stylesheet" href="css/style.css">
+
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+		<!-- this is for general js -->
+
+		<!-- this is for the slider -->
+		 <script src="js/jquery.fractionslider.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<!-- tooltip plugin -->
+		<!-- <script type="text/javascript" src="js/jquery.tooltipster.min.js"></script> -->
+		<!-- quiz -->
+
+			            <!-- <script src="js/tabletop.js" type="text/javascript"></script> -->
+			            <!-- <script src="js/script.js" type="text/javascript"></script> -->
+	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+
+
+	</head>
+	<div class="row">
+		<div class=" container">
+
+	<body>
+		<div class="slider-wrapper">
+			<div class="responisve-container">
+
+<!--first slide-->
+				<div class="slider">
+					<div class="fs_loader"></div>
+
+					<div class="slide">
+
+						<img 	class="around-the-world" src="images/around-the-world.gif"
+								data-position="100,300" data-fixed data-out="fade"  />
+
+						<img 	 src="images/with-nellie-bly.png"
+								width="650" height="400"
+								data-position="470,400" data-in="bottomRight" data-delay="900" data-out="fade"  />
+
+						<img   class="bly-img" src="images/bly.png"
+								width="500" height="900"
+								data-position="200,0" data-in="right" data-delay="500" data-out="fade" />
+
+
+					</div>
+
+<!-- second slide -->
+					<div class="slide" data-in="slideLeft">
+								<div 	class="about-bly"
+										data-position="100,125" data-in="top" data-step="1" data-out="top">About Nellie Bly
+								</div>
+										<img  id="profile" src="images/bly-profile.jpg"
+										onhover="sayName" class="tooltip" title="Nellie Bly is my pen name. My actual name is Elizabeth Cochrane!"
+												width="356.25" height="570"
+												data-in="bottomLeft" data-position="150,600" data-step="1" data-out="fade"/>
+
+									<div 		id="info"
+												data-position="200,100" data-in="bottom" data-step="2" data-delay="500">
+												Nellie Bly was an American journalist known for investigative reporting.
+												She is famed for her undercover reporting of the conditions in asylums, particularly at Blackwell's Island in New York City, in 1887.
+											</div>
+									<img class="factory" src="images/fact.gif" data-in="bottom"  data-position="460, 100" data-step="2">
+									<div   id="text"
+												data-position="600,580" data-in="bottom" style="visibility:hidden">
+												Though she was an established writer at <i>New York World</i>, by 1888, Bly was ready for another adventure.
+
+									</div>
+
+													<button type="button" class="btn btn-default" id="button-more"
+										onclick="showpic(), hidebly(), showtext()"
+										data-position="700,200" data-in="bottom" data-step="3">
+											Get the News
+								</button>
+
+									<img id="news" src="images/newspaper.png" style="visibility:hidden"
+											width="700" height="700"
+												data-in="fade" data-position="20,400"/>
+					</div>
+
+<!-- Slide 3 -->
+					<div class="slide">
+							<img  src="images/people4.gif" data-position="50,-50" data-step="2"
+													width="1122" height="224.25"/>
+								<img id="verne" src="images/verne.jpg" data-position="300,680" data-step="1" data-in="bottomLeft"
+									width="276" height="412.5"/>
+							<div class="journalism"
+								data-in="botom" data-out="top" data-position="300,50" data-step="1">
+									Inspired by Jules Verne’s “Around the World in Eighty Days,”
+									Bly proposed to her editor at New York World that she could travel the world in less than 80 days.
+							</div>
+							<div class="journalism2"
+								data-in="bottom" data-out="top" data-position="550,50" data-step="2">
+									As journalism was a male-dominated field, Bly’s editor and the other men delayed her for a year
+									until she threatened to travel and write for another newspaper.
+							</div>
+
+					</div>
+
+<!--  slide 4 -->
+					<div class="slide" id="mapgif">
+						<img src="images/map2.gif"
+								width="883.5" height="491.25"
+								data-position="100,58" />
+
+								<div id="world-info1" class="world-info" data-in="right" data-out="left" data-position="650,300" data-step="1" style="visibility:visible">
+									On November 14, 1889, Bly set sail from Hoboken Pier to begin her journey.
+								</div>
+								<div id="world-info2" class="world-info" data-in="right" data-out="left" data-position="650,300" data-step="2" style="visibility:visible">
+									Bly arrived back in New York 72 days and 6 hours after leaving Hoboken.
+								</div>
+							<button type="button" class="btn btn-default" id="button-more"
+					onclick="textout(), showbag()"
+					data-position="50,450" data-in="top" data-step="3">
+						Learn how she did it!
+			</button>
+
+			<img id="bag" src="images/suitcase.png" class="tooltip" title="Nellie Bly carried only one bag"
+			data-position="500,500" style="visibility:hidden"
+				width="200" height="150"	/>
+
+		</div>
+
+<!-- map slide 	5		 -->
+			<div class="slide">
+						<img class="map" src="images/map2.jpg"/>
+
+
+			</div>
+
+<!-- quiz   6 -->
+				<div class="slide" id="quiz">
+
+				</div>
+
+
+				</div>
+			</div>
+		</div>
+</div>
+</div>
+
+
+
+	</body>
+</html>

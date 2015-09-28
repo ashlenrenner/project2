@@ -1,0 +1,184 @@
+/*This is the CSS page for elements in the slider*/
+
+body{
+	position:relative;
+
+	font-family:Georgia, Serif;
+	font-weight: 200;
+	-webkit-font-kerning: auto;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* SLIDER STYLES */
+
+.slider-wrapper{
+	position:relative;
+	overflow:hidden;
+
+	width:100%;
+
+	margin:200px auto;
+
+background: #C0D4DF;
+
+
+
+	border:5px solid #ffffff;
+	box-shadow:0 3px 5px #DAE5DA;
+}
+
+.slider{
+	position:relative;
+	width:100%;
+	/*height: 900px;*/
+/*	height:400px; when responsive, comment this out */
+	margin:0 auto;
+
+background: #C0D4DF;
+
+}
+
+@media only screen and (min-width: 1000px){
+	.slider{
+		width:1000px;
+	}
+}
+
+@media only screen and (min-width: 1440px){
+	.slider{
+		width:1440px;
+	}
+}
+
+/* ELEMENT STYLES */
+
+p{
+	position:absolute;
+	top:-200px;
+
+	z-index:8000;
+	padding:1% 3%;
+
+	font-size:24px;
+	line-height:100%
+	color:#fff;
+	white-space: nowrap;
+	text-transform:uppercase;
+}
+
+.claim{
+	line-height:100%;
+	font-family: Georgia,serif;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+.teaser{
+	padding:0.5% 1.5%;
+	font-size:14px;
+	 line-height:100%
+	 }
+
+
+.small{
+	width:350px;
+   padding-left:0; padding-right:0px;
+	text-align:center;
+}
+
+/*.light-green{background:#95C542;}
+.green{background:#7CB761}
+.orange{background:#EF7D00}
+.turky{background:#348E8A}
+.white{background:#fff; color:#333
+
+
+}*/
+.around-the-world{
+	margin-top: 150px;
+	margin-left: 130px;
+	width: 100%;
+	height: 100%;
+
+	}
+
+
+.about-bly{
+	padding: 10px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	border: 3px solid #36515F;
+	border-radius: 3px;
+	background: #8388AC;
+}
+
+#info, #text {
+		padding: 30px;
+		width: 400px;
+		font-size: 18px;
+		text-wrap: normal;
+		text-align: center;
+		border: 2px solid #36515F;
+		border-radius: 5px;
+		background: #E3B08B;
+	}
+	#profile{
+		border: 5px solid #36515F;
+		border-radius: 3px;
+
+	}
+
+
+.btn-default{
+	background: #36515F;
+	color: #94A4AC;
+	/*background-color: #367380;*/
+	border-color: #212263;
+	font-weight: bold;
+
+}
+.btn-default:hover{
+	background-color: #92989D;
+
+}
+.btn-default:active{
+	background-color: #92989D;
+}
+
+.journalism, .journalism2 {
+	padding: 30px;
+	width: 500px;
+	font-size: 20px;
+	text-wrap: normal;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 5px;
+	background: #fff;
+}
+
+.mapgif{
+z-index: 4000;
+}
+
+.world-info{
+	padding:20px;
+	width: 400px;
+	font-size: 18px;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 5px;
+	background: #fff;
+
+}
+#bag{
+	z-index: 9000;
+
+}
+.map{
+	position: absolute;
+	width: 100%;
+	height: 100%, auto;
+	image-orientation: center;
+}
