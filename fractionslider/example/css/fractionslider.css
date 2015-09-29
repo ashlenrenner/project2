@@ -32,9 +32,9 @@
 
 .fraction-slider .fs_obj
 *{
-	display:inline-block;
-	position:relative;
-	top:0px; left:0px;
+	/*display:none;*/
+	/*position:relative;
+	top:30px; left:50px;*/
 }
 
 .fs_loader{

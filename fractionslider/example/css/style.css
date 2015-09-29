@@ -1,6 +1,18 @@
+/*This is the css for the quiz*/
+.title{
+  font-size: 1.56em;
+  font-weight: bold;
+  margin-top: 1em;
 
+}
+.text{
+  font-size: 1.25em;
+  padding: .75em;
+
+}
 .possible_answer  {
     padding: .75em;
+    margin: .75em;
 }
 
 .possible_answer:hover {
@@ -33,6 +45,7 @@
 .how_you_did {
 	text-align: center;
 	padding: 1em;
+  margin: .75em;
 	background-color: rgb(254, 231, 88);
 	font-weight: bold;
 	font-size: 1.25em;
@@ -46,11 +59,12 @@
 img, .youtube {
 	margin-bottom: 1em;
 	min-height: 200px;
-	
+
 }
 
 .possible_answer img {
 	max-height: 24em;
+
 }
 
 .question img, .revealed_answer img, .selected img, .correct-answer img, .wrong-answer img {
