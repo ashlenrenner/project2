@@ -16,7 +16,7 @@
 }
 
 .possible_answer:hover {
-	background: rgba(254, 231, 88, 1);
+	background: #CA8BE3;
 	cursor: pointer;
     font-weight: bold;
 }
@@ -27,11 +27,11 @@
 }
 
 .wrong-answer {
-	background: #E80C7A;
+	background: #E3B08B;
 }
 
 .correct-answer {
-    background: #FF530D;
+    background: #33cc66;
 }
 
 .selected {
@@ -46,7 +46,7 @@
 	text-align: center;
 	padding: 1em;
   margin: .75em;
-	background-color: rgb(254, 231, 88);
+	background-color: #CA8BE3;
 	font-weight: bold;
 	font-size: 1.25em;
 	-webkit-box-shadow: 0px 7px 5px rgba(50, 50, 50, 0.65);

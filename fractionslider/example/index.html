@@ -45,36 +45,31 @@
 
 <!--  slide 2 -->
 					<div class="slide" data-in="slideLeft">
-								<div 	class="about-bly"
-										data-position="100,125" data-in="top" data-step="1" data-out="top">About Nellie Bly
-								</div>
-										<img  id="profile" src="images/bly-profile.jpg"
-										onhover="sayName" class="tooltip" title="Nellie Bly is my pen name. My actual name is Elizabeth Cochrane!"
-												width="356.25" height="570"
-												data-in="bottomLeft" data-position="150,600" data-step="1" data-out="fade"/>
-
-									<div 		id="info"
-												data-position="200,100" data-in="bottom" data-step="2" data-delay="500">
+								<img 	class="about-bly" src="images/about.png"
+										data-position="40,50" data-in="top" data-step="1" data-out="top"/>
+								<img  id="profile" src="images/bly-profile.jpg"
+											onhover="sayName"	class="tooltip" title="Nellie Bly is my pen name. My actual name is Elizabeth Cochrane!"
+													width="300" height="450"
+														data-in="bottomLeft" data-position="250,600" data-step="1" data-out="fade"/>
+								<div 		id="info"
+										data-position="200,100" data-in="bottom" data-step="2" data-delay="500">
 												Nellie Bly was an American journalist known for investigative reporting.
 												She is famed for her undercover reporting of the conditions in asylums, particularly at Blackwell's Island in New York City, in 1887.
-											</div>
-									<img class="factory" src="images/fact.gif" data-in="bottom"  data-position="460, 100" data-step="2"
-											width="500" height="450" />
-									<div   id="text"
-												data-position="600,580" data-in="bottom" style="visibility:hidden">
-												Though she was an established writer at <i>New York World</i>, by 1888, Bly was ready for another adventure.
-
-									</div>
-
-													<button type="button" class="btn btn-default" id="button-more"
+								</div>
+										<img class="factory" src="images/fact.gif" data-in="bottom"  data-position="335, 100" data-step="2"
+											width="337.5" height="375" />
+										<div   id="text"
+												data-position="600,550" data-in="bottom" style="visibility:hidden">
+													Though she was an established writer at <i>New York World</i>, by 1888, Bly was ready for another adventure.
+										</div>
+							<button type="button" class="btn btn-default" id="button-more"
 										onclick="showpic(), hidebly(), showtext()"
-										data-position="700,200" data-in="bottom" data-step="3">
-											Get the News
-								</button>
-
-									<img id="news" src="images/newspaper.png" style="visibility:hidden"
+											data-position="150,700" data-in="top" data-step="3">
+												Get the News
+							</button>
+							<img id="news" src="images/newspaper.png" style="visibility:hidden"
 											width="700" height="700"
-												data-in="fade" data-position="20,400"/>
+												data-in="fade" data-position="50,400"/>
 					</div>
 
 <!-- Slide 3 -->
@@ -86,7 +81,7 @@
 							<div class="journalism"
 								data-in="botom" data-out="top" data-position="300,50" data-step="1">
 									Inspired by Jules Verne’s “Around the World in Eighty Days,”
-									Bly proposed to her editor at New York World that she could travel the world in less than 80 days.
+									Bly proposed to her editor at New York World that she write a series of articles while traversing the world -- in less than 80 days.
 							</div>
 							<div class="journalism2"
 								data-in="bottom" data-out="top" data-position="550,50" data-step="2">
@@ -97,39 +92,125 @@
 					</div>
 
 <!--  slide 4 -->
-					<div class="slide" id="mapgif">
-						<img src="images/map2.gif"
+			<div class="slide" id="mapgif">
+					<img src="images/map2.gif"
 								width="883.5" height="491.25"
-								data-position="100,58" />
-
-								<div id="world-info1" class="world-info" data-in="right" data-out="left" data-position="650,300" data-step="1" style="visibility:visible">
-									On November 14, 1889, Bly set sail from Hoboken Pier to begin her journey.
-								</div>
-								<div id="world-info2" class="world-info" data-in="right" data-out="left" data-position="650,300" data-step="2" style="visibility:visible">
+									data-position="100,58" />
+				<div id="world-info1" class="world-info"
+						data-in="right" data-out="left" data-position="650,525" data-step="1" style="visibility:visible">
+								On November 14, 1889, Bly set sail from Hoboken Pier to begin her journey.
+				</div>
+				<div id="world-info2" class="world-info"
+						data-in="right" data-out="left" data-position="650,75" data-step="2" style="visibility:visible">
 									Bly arrived back in New York 72 days and 6 hours after leaving Hoboken.
-								</div>
-							<button type="button" class="btn btn-default" id="button-more"
-					onclick="textout(), showbag()"
-					data-position="50,450" data-in="top" data-step="3">
-						Learn how she did it!
-			</button>
+				</div>
+						<button type="button" class="btn btn-default" id="button-more"
+								onclick="textout(), showbag(), textIn()"
+									data-position="50,450" data-in="top" data-step="3">
+										Learn how she did it!
+						</button>
 
-			<img id="bag" src="images/suitcase.png" class="tooltip" title="Nellie Bly carried only one bag"
-			data-position="300,300" style="visibility:hidden"
-				width="500" height="500"	/>
+				<img id="bag" src="images/suitcase.png" class="tooltip"
+						data-position="300,500" style="visibility:hidden"
+							width="300" height="250"	/>
+				<div id="world-info3" class="world-info"
+						data-in="bottom" data-position="500, 70" style="visibility:hidden">
+						<ul>
+							<li>Bly carried only one bag. Into it she squeezed...</li>
+								<li>	two traveling caps</li>
+								<li>	a pair of slippers</li>
+								<li>	toilet articles</li>
+								<li>	an ink stand, pens, pencils, and paper</li>
+								<li>	a dress, a blazar, and a few changes of underwear</li>
+								<li>	and a jar of cold cream.</li>
+								<li>	Many suggested she take along a revolver, but she left it behind.</li>
+				</div>
+	</div>
 
-		</div>
-
-<!-- map slide 	5		 -->
+<!-- slide 	5	(map)	 -->
 			<div class="slide">
-						<img class="map" src="images/map2.jpg"/>
+					<img class="map" src="images/map2.jpg"
+						width="1106" height="615" data-position="50,-55"/>
 
+					<div class="round-button tooltip"
+							title="Day 1 Hoboken, New Jersy: Bly sets sail on a liner named the Augusta Victoria."
+								data-position="290,255" data-step="1">
+							<div class="round-button-circle " >
+									<a href="#" class="round-button">1</a>
+						</div>
+				</div>
+				<div class="round-button tooltip"
+						title="Day 8 London: After getting seasick on the transatlantic crossing, Bly arrives in London where she meets The World's correspondent. "
+							data-position="250,440" data-in="top" data-step="2">
+						<div class="round-button-circle " >
+								<a href="#" class="round-button">2</a>
+					</div>
+			</div>
+			<div class="round-button tooltip"
+					title="Day 9 Amiens, France: Bly takes a detour to visit Jules Verne, who wrote the book that inspired her journey. "
+						data-position="270,470" data-in="left" data-step="3">
+					<div class="round-button-circle " >
+							<a href="#" class="round-button">3</a>
+				</div>
+		</div>
+		<div class="round-button tooltip"
+				title="Day 11 Brindisi, Italy: Bly takes the train to Brindisi,
+				where she was surprised when the Italian-speaking cable operator asked her what country New York was in. "
+					data-position="300,500" data-in="bottomLeft" data-step="4">
+				<div class="round-button-circle " >
+						<a href="#" class="round-button">4</a>
+			</div>
+		</div>
+		<div class="round-button tooltip"
+				title="Day 13 Port Said, Egypt: Bly arrives and is met by beggars. Some of the other passengers carry parasols and canes to fend them off,
+				but Bly writes, 'a stick beats more ugliness into a person than it ever beats out.' "
+					data-position="350,550" data-in="bottom" data-step="5">
+				<div class="round-button-circle " >
+						<a href="#" class="round-button">5</a>
+			</div>
+		</div>
+		<div class="round-button tooltip"
+				title="Day 31 Singapore: Upon boarding a ship there, a fellow passenger
+					falls in love with her and then, mad with passion, threatens to throw her overboard. "
+					data-position="400,780" data-in="bottomLeft" data-step="6">
+				<div class="round-button-circle " >
+						<a href="#" class="round-button">6</a>
+			</div>
+		</div>
+		<div class="round-button tooltip"
+				title="Day 39 Hong Kong: Bly finds out Cosmopolitan magazine had sent a rival reporter to race her,
+					and she had passed through Hong Kong three days before her. Now Bly's journey was more than a race against time."
+					data-position="370,810" data-in="bottomLeft" data-step="7">
+				<div class="round-button-circle " >
+						<a href="#" class="round-button">7</a>
+			</div>
+		</div>
+		<div class="round-button tooltip"
+				title="Day 67 San Francisco: Bly was met by cheering crowds rooting for her on her last leg of the journey."
+					data-position="300,70" data-in="right" data-step="8">
+				<div class="round-button-circle " >
+						<a href="#" class="round-button">8</a>
+			</div>
+		</div>
+		<div class="round-button tooltip"
+				title="Day 72 Hoboken, New Jersy: Bly finishes her tour in 72 days, 6 hours and 11 minutes, or 1,734 hours and 11 minutes.
+					She spent 56 days 12 hours and 41 minutes in actual travel and was delayed 15 days 17 hours and 30 minutes.
+					She still finished two days ahead of schedule."
+					data-position="290,230" data-step="9">
+				<div class="round-button-circle " >
+						<a href="#" class="round-button">9</a>
+			</div>
+		</div>
 
 			</div>
 
-<!-- quiz   6 -->
+<!-- slide 6 (quiz)-->
 
 <div class="container-fluid quiz2 slide">
+	<img class="quiz-img" src="images/quiz.png" data-in="top" data-position="50,-50" data-step="1"/>
+		<img class="quiz-img" src="images/bly-wave.png"
+				data-in="right" data-position="150,50" data-step="2"
+					width="300" height="500"/>
 			<div id="quiz" ></div>
 	<!-- <div id="scrollbar" class="mCustomScrollbar" > -->
 </div>

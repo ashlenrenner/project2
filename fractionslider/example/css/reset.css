@@ -17,7 +17,7 @@ fieldset,form,label,legend,
 table,caption,tbody,tfoot,thead,tr,th,td,
 section, article, aside, footer, header, hgroup, nav{
   margin:0;
-  padding:0;
+  /*padding:0;*/
   border:0;
   outline:0;
   font-size:100%;

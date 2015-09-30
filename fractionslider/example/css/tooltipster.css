@@ -5,6 +5,8 @@
 	background: #E3B08B;
 	color: #36515F;
 	font-weight: bold;
+	z-index: 3000;
+	max-width: 200px;
 }
 
 /* Use this next selector to style things like font-size and line-height: */

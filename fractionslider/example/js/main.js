@@ -11,23 +11,27 @@ function addScroller(){
   $(window).load(function(){
         $("#quiz").mCustomScrollbar();
               console.log("scroller loaded");
-              
+
       });
 
 }
 
 //Tooltip
-function sayName(){
+$(document).ready(function() {
+         $('.tooltip').tooltipster();
+     });
 
+function sayName(){
 $(document).ready(function(sayname) {
   $('.tooltip').tooltipster({
      animation: 'fade',
      delay: 200,
      theme: 'tooltipster-default',
-     trigger: 'hover'
+     trigger: 'hover',
+     position: 'bottom'
   });
 
-      // $('.tooltip').tooltipster();
+
   });
 }
 
@@ -60,11 +64,15 @@ document.getElementById('bag').style.visibility = "visible"
     });
 });
         $('.tooltipster-arrow').tooltipster();
-        var tooltipsterObjects = $('#bag').tooltipster({
-              content: '16 inces',
-              multiple: true,
-              position: 'bottom'
+            var tooltipsterObjects = $('#bag').tooltipster({
+                content: '16 inces',
+                multiple: true,
+                position: 'bottom'
         });
+}
+function textIn(){
+
+  document.getElementById('world-info3').style.visibility = "visible"
 
 }
 
