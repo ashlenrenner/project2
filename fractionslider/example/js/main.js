@@ -2,16 +2,17 @@
 
 
 
-function setUpSlider(){
-
-}
+// Adding quiz
 function addQuiz(){
   var quiz = jQuery('#quiz').quiz('1eejyrkTa3ur1RzJ-64XlqXXX8xET8vYR-aZKkCtb7eQ');
 }
 
-
-
 function addScroller(){
+  $(window).load(function(){
+        $("#quiz").mCustomScrollbar();
+              console.log("scroller loaded");
+              
+      });
 
 }
 

@@ -78,7 +78,7 @@
 
 .fs-pager-wrapper{
 	position:absolute;
-	left:450px; bottom:20px;
+	left:50%; bottom:1.25em;
 	z-index:9999;
 }
 

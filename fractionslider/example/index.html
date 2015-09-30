@@ -4,59 +4,46 @@
 	<head>
 		<meta name="author" content="Ashlen Renner">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-		<!-- quiz -->
-			<link href="css/style.css" rel="stylesheet" media="screen" type="text/css">
+<!-- quiz -->
+		<link href="css/style.css" rel="stylesheet" media="screen" type="text/css">
+<!-- slider css -->
 		<link rel="stylesheet" href="css/reset.css" type="text/css"   charset="utf-8" />
 		<link rel="stylesheet" href="css/slider-style.css" type="text/css" charset="utf-8" />
 		<link rel="stylesheet" href="css/fractionslider.css">
+<!-- tooltip  -->
 		<link rel="stylesheet" type="text/css" href="css/tooltipster.css" />
+<!-- scroller -->
+		<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
 
-
-		<!-- <link  rel="stylesheet" href="css/style.css"> -->
-
+<!-- general js -->
 		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-
-		<!-- this is for general js -->
-
-		<!-- this is for the slider -->
+<!-- slider -->
 		 <script src="js/jquery.fractionslider.min.js" type="text/javascript" charset="utf-8"></script>
-
-		<!-- tooltip plugin -->
+<!-- tooltip  -->
 		<script type="text/javascript" src="js/jquery.tooltipster.min.js"></script>
-
-
-
 
 	</head>
 
 	<body>
 	<div class="row">
 		<div class=" container">
+			<div class="slider-wrapper">
+				<div class="responisve-container">
+					<div class="slider">
+							<div class="fs_loader"></div>
+<!-- slide 1-->
+		<div class="slide">
+					<img 	class="around-the-world" src="images/around-the-world.gif"
+						data-position="-150,-100"  data-out="fade" height="700" />
+					<img 	 src="images/with-nellie-bly.png"
+						width="650" height="400"
+						data-position="470,400" data-in="bottomRight" data-delay="900" data-out="fade"  />
+					<img   class="bly-img" src="images/bly.png"
+						height="750" width="525"
+						data-position="50,20" data-in="right" data-delay="500" data-out="fade" />
+		</div>
 
-		<div class="slider-wrapper">
-			<div class="responisve-container">
-
-<!--first slide-->
-				<div class="slider">
-					<div class="fs_loader"></div>
-
-					<div class="slide">
-
-						<img 	class="around-the-world" src="images/around-the-world.gif"
-								data-position="-150,-100"  data-out="fade" height="700" />
-
-						<img 	 src="images/with-nellie-bly.png"
-								width="650" height="400"
-								data-position="470,400" data-in="bottomRight" data-delay="900" data-out="fade"  />
-
-						<img   class="bly-img" src="images/bly.png"
-								height="670" width="500"
-								data-position="100,20" data-in="right" data-delay="500" data-out="fade" />
-
-
-					</div>
-
-<!-- second slide -->
+<!--  slide 2 -->
 					<div class="slide" data-in="slideLeft">
 								<div 	class="about-bly"
 										data-position="100,125" data-in="top" data-step="1" data-out="top">About Nellie Bly
@@ -141,14 +128,18 @@
 			</div>
 
 <!-- quiz   6 -->
-<div class="container-fluid slide">
-		<div id="quiz"></div>
+
+<div class="container-fluid quiz2 slide">
+			<div id="quiz" ></div>
+	<!-- <div id="scrollbar" class="mCustomScrollbar" > -->
 </div>
 
 				<!-- js for quiz -->
 											<script src="js/tabletop.js" type="text/javascript"></script>
 											<script src="js/script.js" type="text/javascript"></script>
 											<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+				<!-- scroller -->
+											<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 
 				<script type="text/javascript">
 						var quiz = jQuery('#quiz').quiz('1eejyrkTa3ur1RzJ-64XlqXXX8xET8vYR-aZKkCtb7eQ');

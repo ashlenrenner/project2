@@ -187,4 +187,11 @@ z-index: 1000;
 	display: none;
 	margin-top: 6.25em;
 	margin-left: 15.6em;
+	overflow: auto;
+}
+
+.quiz2 {
+overflow: auto;
+
+
 }
