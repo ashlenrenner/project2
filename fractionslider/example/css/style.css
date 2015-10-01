@@ -3,12 +3,20 @@
   font-size: 1.56em;
   font-weight: bold;
   margin-top: 1em;
+  padding-top: .5em;
+  padding-bottom: .5em;
 
 }
 .text{
   font-size: 1.25em;
   padding: .75em;
+  line-height: 2em;
+  display: inline-block;
 
+}
+.h3{
+  padding: 1em;
+  margin: .5em;
 }
 .possible_answer  {
     padding: .75em;
