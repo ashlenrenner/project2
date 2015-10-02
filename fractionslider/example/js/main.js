@@ -84,7 +84,7 @@ jQuery(window).load(function(){
     'controls':             true,
     'pager':                true,
     'responsive':           true,
-    'dimensions':           "1000,800",
+    'dimensions':        "1000,800",
     'increase':             false,
     'pauseOnHover':         true
     });
