@@ -1,6 +1,12 @@
 // This is my javascript file
-
-
+$(document).ready(function() {
+   $("#mySlider").swiperight(function() {
+      $(this).slider('prev');
+    });
+   $("#mySlider").swipeleft(function() {
+      $(this).slider('next');
+   });
+});
 
 // Adding quiz
 function addQuiz(){
@@ -86,6 +92,6 @@ jQuery(window).load(function(){
     'responsive':           true,
     'dimensions':        "1000,800",
     'increase':             false,
-    'pauseOnHover':         true
+    'pauseOnHover':         false
     });
 });
