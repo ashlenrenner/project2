@@ -91,7 +91,7 @@ jQuery(window).load(function(){
     'pager':                true,
     'responsive':           true,
     'dimensions':        "1000,800",
-    'increase':             false,
+    'increase':             true,
     'pauseOnHover':         false
     });
 });
