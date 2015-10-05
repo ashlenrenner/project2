@@ -1,10 +1,12 @@
 // This is my javascript file
+
+//swiping
 $(document).ready(function() {
-   $("#mySlider").swiperight(function() {
-      $(this).slider('prev');
+   $(".slide").swiperight(function() {
+      $(this).slider('prevSlideCallback');
     });
-   $("#mySlider").swipeleft(function() {
-      $(this).slider('next');
+   $(".fractionSlider").swipeleft(function() {
+      $(this).slider('startNextSlide');
    });
 });
 
@@ -24,7 +26,7 @@ function addScroller(){
 
 //Tooltip
 $(document).ready(function() {
-         $('.tooltip').tooltipster();
+     $('.tooltip').tooltipster();
      });
 
 function sayName(){
@@ -77,7 +79,6 @@ document.getElementById('bag').style.visibility = "visible"
         });
 }
 function textIn(){
-
   document.getElementById('world-info3').style.visibility = "visible"
 
 }

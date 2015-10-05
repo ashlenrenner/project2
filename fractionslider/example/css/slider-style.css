@@ -52,13 +52,12 @@ body{
 /*MOBILE VERSON*/
 
 @media only screen and (max-device-width: 480px){
-	#mobie-slide .slider .responisve-container .fractionSlider{
-		height: 100em !important;
+	.slider .responisve-container .fractionSlider{
+		height: 200em;
 		width: auto;
-		
 	}
-	.fraction-slider .slide .active-slide .ui-mobile-viewport{
-		height: 100em !important;
+	.fraction-slider .slide .active-slide {
+		height: 200em;
 		width: auto;
 	}
 	.container{
@@ -69,8 +68,8 @@ body{
 		display: visible;
 	}
 	#info{
-		visibility: hidden;
-		display: none;
+		width: 100%;
+		font-size: 40px;
 	}
 .info-mobile{
 	visibility: visible;
@@ -83,28 +82,7 @@ body{
 }
 
 
-
-}
-
-
-
-
-/
 /* ELEMENT STYLES */
-
-/*p{
-	position:absolute;
-	top:-200px;
-
-	z-index:8000;
-	padding:1% 3%;
-
-	font-size:24px;
-	line-height:100%
-	color:#fff;
-	white-space: nowrap;
-	text-transform:uppercase;
-}*/
 
 .claim{
 	line-height:100%;
@@ -127,14 +105,7 @@ body{
 	text-align:center;
 }
 
-/*.light-green{background:#95C542;}
-.green{background:#7CB761}
-.orange{background:#EF7D00}
-.turky{background:#348E8A}
-.white{background:#fff; color:#333
 
-
-}*/
 .around-the-world{
 	width: 90%;
 	height: 90%;
@@ -246,16 +217,15 @@ z-index: 1000;
 
 }
 .round-button-circle {
-		position: absolute;
+	position: absolute;
 	width: 100%;
 	height:0;
 	padding-bottom: 100%;
-    border-radius: 50%;
+  border-radius: 50%;
 	border:1px solid #36515F;
-    overflow:hidden;
-
-    background:#92989D;
-    box-shadow: 0 0 3px gray;
+  overflow:hidden;
+  background:#92989D;
+  box-shadow: 0 0 3px gray;
 }
 .round-button-circle:hover {
 		background: #E3B08B;
@@ -265,13 +235,17 @@ z-index: 1000;
 	padding-top:50%;
   padding-left: 25%;
 	line-height:1em;
-
 	text-align:center;
 	color:#36515F;
-    font-family:Verdana;
-    font-size:1.2em;
-    font-weight:bold;
-    text-decoration:none;
+  font-family:Verdana;
+  font-size:1.2em;
+  font-weight:bold;
+  text-decoration:none;
+}
+.directions{
+	padding: 10px;
+	margin: 5px;
+
 }
 
 #quiz{
